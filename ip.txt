@@ -1,0 +1,11 @@
+{'ip': '218.249.154.66', 'port': '8081', 'address': '北京市北京市 鹏博士宽带', 'privacy': 'high', 'health': '1.037'}
+{'ip': '117.177.241.103', 'port': '80', 'address': '四川省内江市 移动', 'privacy': 'high', 'health': '0.376'}
+{'ip': '111.23.10.56', 'port': '80', 'address': '湖南省长沙市 移动', 'privacy': 'high', 'health': '0.313'}
+{'ip': '111.23.10.37', 'port': '8080', 'address': '湖南省长沙市 移动', 'privacy': 'high', 'health': '0.307'}
+{'ip': '111.23.10.30', 'port': '80', 'address': '湖南省长沙市 移动', 'privacy': 'high', 'health': '0.312'}
+{'ip': '117.177.241.99', 'port': '8080', 'address': '四川省内江市 移动', 'privacy': 'high', 'health': '0.397'}
+{'ip': '111.23.10.48', 'port': '8080', 'address': '湖南省长沙市 移动', 'privacy': 'high', 'health': '0.278'}
+{'ip': '111.8.22.212', 'port': '80', 'address': '湖南省长沙市 移动', 'privacy': 'high', 'health': '0.291'}
+{'ip': '211.140.139.222', 'port': '8081', 'address': '浙江省金华市 移动', 'privacy': 'high', 'health': '0.620'}
+{'ip': '111.23.10.14', 'port': '8080', 'address': '湖南省长沙市 移动', 'privacy': 'high', 'health': '0.268'}
+{'ip': '111.23.10.30', 'port': '80', 'address': '湖南省长沙市 移动', 'privacy': 'high', 'health': '0.423'}
