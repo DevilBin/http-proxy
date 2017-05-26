@@ -8,7 +8,7 @@ import requests
 class findHost():
 
     page, proxies, health, = "", "", ""
-    http_url = u"http://www.baidu.com/s?wd=我的ip"
+    http_url = "http://www.baidu.com/s?wd=我的ip"
     ip_msg = {
         "ip": "",
         "port": "",
@@ -35,7 +35,7 @@ class findHost():
 
     def retRealIp(cls):
         try:
-            pattern = re.compile(u"我的ip地址(.*?)。查ip", re.S)
+            pattern = re.compile("我的ip地址(.*?)。查ip", re.S)
             items = re.findall(pattern, cls.page)
             for item in items:
                 pattern = re.compile("\d+\.\d+\.\d+\.\d+", re.S)
@@ -46,7 +46,7 @@ class findHost():
 
     def retRealAddress(cls):
         try:
-            pattern = re.compile(u"属于(.*?)。查ip", re.S)
+            pattern = re.compile("属于(.*?)。查ip", re.S)
             items = re.findall(pattern, cls.page)
             for item in items:
                 return item
