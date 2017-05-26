@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import json
 from crawl import kuaidaili
 from utils import host
 from multiprocessing import Process
@@ -27,7 +26,6 @@ def addresProxy(http_proxy):
     if proxy_json["address"] != None:
         print(proxy_json)
         f = open("ip.txt", "ab")
-        #proxy_json = json.JSONEncoder().encode(proxy_json)
         f.write(str(proxy_json).encode("utf-8") + b"\n")
         f.close()
 
